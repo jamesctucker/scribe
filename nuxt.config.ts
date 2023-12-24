@@ -20,4 +20,7 @@ export default defineNuxtConfig({
     // TODO: don't hardcode this
     redirect: false,
   },
+  runtimeConfig: {
+    rssFeedUrl: "123",
+  },
 });
