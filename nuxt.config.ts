@@ -22,5 +22,6 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     rssFeedUrl: "123",
+    deepgramKey: "test123",
   },
 });
