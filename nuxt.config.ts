@@ -2,7 +2,6 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
-    "@nuxt/ui",
     "@nuxtjs/google-fonts",
     "@vee-validate/nuxt",
     "@nuxtjs/supabase",
@@ -10,6 +9,7 @@ export default defineNuxtConfig({
     "@nuxtjs/plausible",
     "nuxt-bugsnag",
     "nuxt-vitest",
+    "@nuxtjs/tailwindcss",
   ],
   googleFonts: {
     families: {

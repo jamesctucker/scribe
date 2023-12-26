@@ -26,10 +26,10 @@
     "@deepgram/sdk": "^3.0.1",
     "@formkit/auto-animate": "^0.8.1",
     "@hebilicious/vue-query-nuxt": "^0.3.0",
-    "@nuxt/ui": "^2.11.1",
     "@tanstack/vue-query": "^5.14.4",
     "@vee-validate/nuxt": "^4.12.3",
     "@vueuse/nuxt": "^10.7.0",
+    "daisyui": "^4.4.24",
     "fast-xml-parser": "^4.3.2",
     "nuxt-bugsnag": "^7.1.0"
   }

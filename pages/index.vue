@@ -27,14 +27,16 @@ const transcribeAudio = async (url: string) => {
 </script>
 
 <template>
-  <div>
-    <h1>Nuxt Starter</h1>
+  <div class="main">
+    <h1>Scribe</h1>
     <p v-if="isLoading">Loading...</p>
     <!-- data?.rss?.channel?.item -->
     <div v-if="audioUrl">
       <p>{{ audioUrl }}</p>
 
-      <Ubutton @click="transcribeAudio(audioUrl)">Transcribe Audio</Ubutton>
+      <button class="btn btn-primary" @click="transcribeAudio(audioUrl)">
+        Transcribe Audio
+      </button>
 
       <p class="result">{{ transcription }}</p>
     </div>
@@ -42,6 +44,9 @@ const transcribeAudio = async (url: string) => {
 </template>
 
 <style scoped>
+.main {
+  padding: 1rem;
+}
 .result {
   white-space: pre-wrap;
 }
