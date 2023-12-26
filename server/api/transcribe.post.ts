@@ -9,7 +9,6 @@ export default defineEventHandler(async (event) => {
 
   const deepgram = createClient(deepgramApiKey);
 
-  console.log(body);
   console.log(url);
 
   try {

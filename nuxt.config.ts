@@ -10,6 +10,7 @@ export default defineNuxtConfig({
     "nuxt-bugsnag",
     "nuxt-vitest",
     "@nuxtjs/tailwindcss",
+    "dayjs-nuxt"
   ],
   googleFonts: {
     families: {
